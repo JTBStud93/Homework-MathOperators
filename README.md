@@ -19,7 +19,7 @@ The "-" is used to take a number, and decrease (minus) it with another number to
 
 // 3) * (Multiply) ... A * B = 200
 
-(*)The "*" is used to duplicate one number by the amount of another; i.e. 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 = 200, "Ten 20s added together make 200."
+The "Asterik" is used to duplicate one number by the amount of another; i.e. 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 = 200, "Ten 20s (or Twenty 10s) added together make 200."
 
 // 4) / (Divide) ... B / A = 2
 
@@ -27,13 +27,25 @@ The / splits the "numerator by the de-numerator". i.e. 10 can go into 20, 2 time
 
 // 5) ++ (Increment) ... A++ = 11 OR B++ = 21
 
+This operator simply increases the number by 1.
+
 // 6) -- (Decrement) ... A-- = 9 OR B-- = 19
+
+This operator simply decreases the number by 1.
 
 // 7) = (Assignment) ... C = A + B; The value of A + B is "assigned" to the value of C.
 
+This single equal sign is used to assign one thing to something else; i.e. int myint = 5;
+
 // 8) == (Equality Check) ... A == B are not equal, therefore, it is not true.
+
+Two equal signs together are used to compare one thing to another; if they are the same, then they are true; but if not, then they are false.
 
 // 9) > (Greater Than) ... A > B is false, 10 is not greater than 20.
 
+This operator determines if the number on the left is higher than the number on the right, if it is higher, then it is true.
+
 // 10) < (Less Than) ... A < B is true, 10 is less than 20.
+
+This operator determines if the number on the left is lower than the number on the right, if it is lower, then it is true.
 

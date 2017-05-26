@@ -107,11 +107,11 @@ namespace OperatorsAppl
       
       if (A < B)
       {
-        Console.WriteLine("Line 9 - A is less than B");
+        Console.WriteLine("Line 10 - A is less than B");
       }
       else
       {
-        Console.WriteLine("Line 9 - A is not less than B");
+        Console.WriteLine("Line 10 - A is not less than B");
       }
       
     }

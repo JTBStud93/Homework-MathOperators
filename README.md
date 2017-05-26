@@ -50,13 +50,17 @@ This operator determines if the number on the left is higher than the number on 
 This operator determines if the number on the left is lower than the number on the right, if it is lower, then it is true.
 
 using System;
+
 namespace OperatorsAppl
+
 {
 
   class Program
+  
   {
   
     static void Main(string[] args)
+    
     {
       int A = 10;
       int B = 20;

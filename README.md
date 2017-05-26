@@ -11,11 +11,19 @@ Assume variable "A" holds 10, & variable "B" holds 20.
 
 // 1) + (Add) ... A + B = 30
 
+The "+" is used to combine the numbers (with their values) togehter.
+
 // 2) - (Subtract) ... A - B = -10
+
+The "-" is used to take a number, and decrease (minus) it with another number to obtain a new value.
 
 // 3) * (Multiply) ... A * B = 200
 
+(*)The "*" is used to duplicate one number by the amount of another; i.e. 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 = 200, "Ten 20s added together make 200."
+
 // 4) / (Divide) ... B / A = 2
+
+The / splits the "numerator by the de-numerator". i.e. 10 can go into 20, 2 times.
 
 // 5) ++ (Increment) ... A++ = 11 OR B++ = 21
 

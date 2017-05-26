@@ -49,3 +49,64 @@ This operator determines if the number on the left is higher than the number on 
 
 This operator determines if the number on the left is lower than the number on the right, if it is lower, then it is true.
 
+using System;
+namespace OperatorsAppl
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int A = 10;
+      int B = 20;
+      int C;
+      
+      C = A + B;
+      Console.WriteLine("Line 1 - Value of C is {0}", C);
+     
+      C = A - B;
+      Console.WriteLine("Line 2 - Value of C is {0}", C);
+      
+      C = A * B;
+      Console.WriteLine("Line 3 - Value of C is {0}", C);
+      
+      C = B / A;
+      Console.WriteLine("Line 4 - Value of C is {0}", C);
+      
+      C = A++;
+      Console.WriteLine("Line 5 - Value of C is {0}", C);
+      
+      C = A--;
+      Console.WriteLine("Line 6 - Value of C is {0}", C);
+      
+      C = A;
+      Console.WriteLine("Line 7 - Value of C is {0}", C);
+      
+      if (A == B)
+      {
+        Console.WriteLine("Line 8 - A is equal to B");
+      }
+      else
+      {
+        Console.WriteLine("Line 8 - A is not equal to B");
+      }
+      
+      if (A > B)
+      {
+        Console.WriteLine("Line 9 - A is greater than B");
+      }
+      else
+      {
+        Console.WriteLine("Line 9 - A is not greater than B");
+      }
+      
+      if (A < B)
+      {
+        Console.WriteLine("Line 9 - A is less than B");
+      }
+      else
+      {
+        Console.WriteLine("Line 9 - A is not less than B");
+      }
+    }
+  }
+}

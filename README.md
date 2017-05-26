@@ -52,8 +52,10 @@ This operator determines if the number on the left is lower than the number on t
 using System;
 namespace OperatorsAppl
 {
+
   class Program
   {
+  
     static void Main(string[] args)
     {
       int A = 10;
@@ -107,6 +109,9 @@ namespace OperatorsAppl
       {
         Console.WriteLine("Line 9 - A is not less than B");
       }
+      
     }
+    
   }
+  
 }
